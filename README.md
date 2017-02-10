@@ -40,13 +40,13 @@ Get your [personal access token](https://github.com/settings/tokens/new "New per
 
 Set the access token to `REVIEWDOG_GITHUB_API_TOKEN`.
 
-```
+```shell-session
 travis env set REVIEWDOG_GITHUB_API_TOKEN <YOUR_TOKEN>
 ```
 
 You can check the result:
 
-```
+```shell-session
 $ travis env list
 # environment variables for azu/textlint-reviewdog-example
 REVIEWDOG_GITHUB_API_TOKEN=[secure]
