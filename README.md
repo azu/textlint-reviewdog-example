@@ -27,7 +27,7 @@ install:
 script:
   - $(npm bin)/textlint README.md
 after_failure:
-  - test $TRAVIS_PULL_REQUEST == "false" && $(npm bin)/textlint -f checkstyle README.md | reviewdog -f=checkstyle -name="textlint" -ci="travis"
+  - test "$TRAVIS_PULL_REQUEST" && $(npm bin)/textlint -f checkstyle README.md | reviewdog -f=checkstyle -name="textlint" -ci="travis"
 ```
 
 See [.travis.yml](.travis.yml) for details.
