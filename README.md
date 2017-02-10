@@ -4,10 +4,9 @@ textlint project + [reviewdog](https://github.com/haya14busa/reviewdog "reviewdo
 
 reviewdog can write textlint's lint resut as GitHub review comments.
 
-See also.
+See also:
 
 - [reviewdog — A code review dog who keeps your codebase healthy – Medium](https://medium.com/@haya14busa/reviewdog-a-code-review-dog-who-keeps-your-codebase-healthy-d957c471938b)
-
 
 ## Usage
 
