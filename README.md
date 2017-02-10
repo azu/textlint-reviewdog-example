@@ -1,4 +1,4 @@
-# textlint-reviewdog-example
+# textlint-reviewdog-example [![Build Status](https://travis-ci.org/azu/textlint-reviewdog-example.svg?branch=master)](https://travis-ci.org/azu/textlint-reviewdog-example)
 
 textlint project + [reviewdog](https://github.com/haya14busa/reviewdog "reviewdog") example project
 
