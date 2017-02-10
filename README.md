@@ -4,13 +4,13 @@ textlint project + [reviewdog](https://github.com/haya14busa/reviewdog "reviewdo
 
 reviewdog can write textlint's lint resut as GitHub review comments.
 
+[![textlint-reviewdog-example 2017-02-10 23-23-17](https://cloud.githubusercontent.com/assets/19714/22829900/f0ab5cba-efe7-11e6-904f-7eae4e2701ba.png)](https://github.com/azu/textlint-reviewdog-example/pull/1)
+
 See also:
 
 - [reviewdog — A code review dog who keeps your codebase healthy – Medium](https://medium.com/@haya14busa/reviewdog-a-code-review-dog-who-keeps-your-codebase-healthy-d957c471938b)
 
 ## How to setup?
-
-- [ ] Write usage instructions
 
 ### 1. Setup .travis.yml
 
@@ -58,7 +58,7 @@ See Example Pull Request.
 
 - [docs: Update README by azu · Pull Request #1 · azu/textlint-reviewdog-example](https://github.com/azu/textlint-reviewdog-example/pull/1 "docs: Update README by azu · Pull Request #1 · azu/textlint-reviewdog-example")
 
-- [ ] Add TODO
+[![textlint-reviewdog-example 2017-02-10 23-23-17](https://cloud.githubusercontent.com/assets/19714/22829900/f0ab5cba-efe7-11e6-904f-7eae4e2701ba.png)](https://github.com/azu/textlint-reviewdog-example/pull/1)
 
 ## Running tests
 
