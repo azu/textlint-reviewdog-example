@@ -1,8 +1,10 @@
 sudo: false
 language: node_js
 node_js: "stable"
+env:
+- REVIEWDOG_VERSION=0.9.5
 install:
-  - go get github.com/haya14busa/reviewdog/cmd/reviewdog
+  - curl -fSL https://github.com/haya14busa/reviewdog/releases/download/$REVIEWDOG_VERSION/reviewdog_linux_amd64 -o /usr/local/bin/reviewdog && chmod +x /usr/local/bin/reviewdog
   - npm install
 script:
   - $(npm bin)/textlint -f checkstyle README.md | reviewdog -f=checkstyle -name="textlint" -ci="travis"
