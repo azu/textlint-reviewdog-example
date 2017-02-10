@@ -2,7 +2,7 @@
 
 [textlint](https://github.com/textlint/textlint "textlint") + [reviewdog](https://github.com/haya14busa/reviewdog "reviewdog") example project
 
-reviewdog can write textlint's lint resut as GitHub review comments.
+reviewdog can write textlint's lint result as GitHub review comments.
 
 [![textlint-reviewdog-example 2017-02-10 23-23-17](https://cloud.githubusercontent.com/assets/19714/22829900/f0ab5cba-efe7-11e6-904f-7eae4e2701ba.png)](https://github.com/azu/textlint-reviewdog-example/pull/1)
 
