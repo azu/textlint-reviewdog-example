@@ -1,0 +1,7 @@
+sudo: false
+language: node_js
+node_js: "stable"
+install:
+  - go get github.com/haya14busa/reviewdog/cmd/reviewdog
+script:
+  - $(npm bin)/textlint -f checkstyle README.md | reviewdog -f=checkstyle -name="textlint" -ci="travis"

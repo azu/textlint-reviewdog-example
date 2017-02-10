@@ -1,0 +1,36 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "name": "textlint-reviewdog-example",
+  "version": "1.0.0",
+  "description": "textlint project + reviewdog example project",
+  "main": "lib/textlint-reviewdog-example.js",
+  "scripts": {
+    "test": "textlint README.md"
+  },
+  "keywords": [
+    "textlint",
+    "review",
+    "github"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/textlint-reviewdog-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/textlint-reviewdog-example/issues"
+  },
+  "homepage": "https://github.com/azu/textlint-reviewdog-example",
+  "devDependencies": {
+    "textlint": "^7.2.1",
+    "textlint-rule-no-todo": "^2.0.0"
+  }
+}
