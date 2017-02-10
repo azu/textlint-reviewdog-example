@@ -1,6 +1,6 @@
 # textlint-reviewdog-example [![Build Status](https://travis-ci.org/azu/textlint-reviewdog-example.svg?branch=master)](https://travis-ci.org/azu/textlint-reviewdog-example)
 
-textlint project + [reviewdog](https://github.com/haya14busa/reviewdog "reviewdog") example project
+[textlint](https://github.com/textlint/textlint "textlint") + [reviewdog](https://github.com/haya14busa/reviewdog "reviewdog") example project
 
 reviewdog can write textlint's lint resut as GitHub review comments.
 
